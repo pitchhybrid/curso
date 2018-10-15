@@ -1,0 +1,16 @@
+{
+  "name": "curso",
+  "version": "1.0.0",
+  "description": "curso de bootstrap",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "PitchHybrid",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta.2",
+    "jquery": "^1.9.1",
+    "popper.js": "^1.12.3"
+  }
+}
