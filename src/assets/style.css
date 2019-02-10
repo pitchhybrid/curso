@@ -1,0 +1,30 @@
+:root{
+  overflow-x: hidden;
+}
+@media screen and (max-width:400px){
+  :root{
+    overflow-x: hidden;
+  }
+}
+.scrollspySite {
+  position: relative;
+  overflow: auto;
+  height: 300px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px whitesmoke;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: gray;
+  border-radius: 10px;
+}
