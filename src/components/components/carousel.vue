@@ -37,7 +37,7 @@ export default {
     var vm = this
       axios.get('',{
         params:{
-          q:'cats',
+          q:'dogs',
           per_page:5,
           page:1,
           orientation:'horizontal'
@@ -45,7 +45,7 @@ export default {
       }).then(function(response){
         vm.imgs = response.data.hits
         // console.log(response.data.hits)
-      }).catch(error => console.log(error))
+      }).catch(error => error)
     
   },
     data(){
