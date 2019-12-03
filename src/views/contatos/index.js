@@ -1,5 +1,5 @@
-export default{
+export default {
   path: '/contatos',
   name: 'contatos',
-  component: ()=> import('./contatos.vue'),
+  component: () => import('./contatos.vue'),
 }
