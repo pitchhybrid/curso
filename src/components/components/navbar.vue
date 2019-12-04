@@ -2,7 +2,9 @@
     <div class="container">
         <nav class="navbar is-tab">
             <div class="navbar-brand my">
-                <a class="navnar-item"><span class="title is-4">Portifolio</span></a>
+                <router-link class="navnar-item" :to="{name:'home'}">
+                    <span class="title is-4">Portfolio</span>
+                </router-link>
                 <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbar">
                     <span aria-hidden="true"></span>
                     <span aria-hidden="true"></span>
@@ -11,14 +13,13 @@
             </div>
             <div class="navbar-menu" id="navbar">
                 <div class="navbar-start">
-                    <router-link class="navbar-item" :to="{name:'home'}"> Home </router-link>
-                    <router-link class="navbar-item" :to="{name:'perfil'}"> Perfil </router-link>
-                    <router-link class="navbar-item" :to="{name:'servicos'}"> Servicos </router-link>
-                    <router-link class="navbar-item" :to="{name:'depoimentos'}"> Depoimentos </router-link>
-                    <router-link class="navbar-item" :to="{name:'contatos'}"> Contatos </router-link>
+                    <router-link class="navbar-item" :to="{name:'perfil'}"> Profile </router-link>
+                    <router-link class="navbar-item" :to="{name:'servicos'}"> Services </router-link>
+                    <router-link class="navbar-item" :to="{name:'depoimentos'}"> Depositions </router-link>
+                    <router-link class="navbar-item" :to="{name:'contatos'}"> Contacts </router-link>
                 </div>
                 <div class="navbar-end my"> 
-                    <input type="text" class="input is-rounded is-warning" name="search" placeholder="pesquise aqui ....">
+                    <input type="text" class="input is-rounded is-warning" name="search" placeholder="search here ...">
                     <button class="button is-primary"><i class="fas fa-search"></i></button>
                 </div>
             </div>
@@ -33,9 +34,9 @@ export default {
         jquery(document).ready(function() {
             // Check for click events on the navbar burger icon
             jquery(".navbar-burger").click(function() {
-            // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
-            jquery(".navbar-burger").toggleClass("is-active");
-            jquery(".navbar-menu").toggleClass("is-active");
+                // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+                jquery(".navbar-burger").toggleClass("is-active");
+                jquery(".navbar-menu").toggleClass("is-active");
            })
         })
     }

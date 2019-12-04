@@ -1,8 +1,8 @@
 <template>
     <div class="container box">
         <div class="columns">
-            <div class="column is-7 box has-background-black">
-                <p class="has-text-white has-text-centered subtitle is-5">
+            <div class="column is-7 box has-background-black content is-medium">
+                <p class="has-text-white">
                     Ut massa massa, ullamcorper sed scelerisque eu, lobortis sit amet tellus. 
                     Etiam faucibus turpis fringilla ipsum commodo, vel imperdiet leo scelerisque. 
                     Nam pulvinar et libero at condimentum. Nam eu est non augue dignissim auctor vel
@@ -19,20 +19,20 @@
 
             <div class="column">
 
-                <p class="title">Contato</p>
+                <p class="title">Contact</p>
                 <form class="field">
                 
                     <div class="control">
                         <label class="label">E-mail</label>
                         <input type="email" class="input" placeholder="example@example.com">
-                        <small class="help">Insira seu e-mail</small>
+                        <small class="help">Insert your e-mail</small>
                         <textarea class="textarea" rows="4"></textarea>
                         <div class="columns">
                             <div class="column is-1">
                                 <input type="checkbox">
                             </div>
                             <div class="column">
-                                <label class="label">Marque se queira emails informativos</label>
+                                <label class="label">Info-emails?</label>
                             </div>
                         </div>
                         <button type="submit" class="button is-success">Submit</button>

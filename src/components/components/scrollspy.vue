@@ -19,27 +19,27 @@
                             </li> 
                             
                             <li> 
-                                <a href="#item1-1">ipsum domet</a>
+                                <a href="#item1-1">Phasellus rhoncus</a>
                             </li> 
                             
                             <li> 
-                                <a href="#item1-2">las lexit domet</a>
+                                <a href="#item1-2">Las lexit domet</a>
                             </li> 
                             
                             <li> 
-                                <a href="#item2">ipsum et domet</a>
+                                <a href="#item2">Lorem ipsum</a>
                             </li> 
                             
                             <li> 
-                                <a href="#item3">las lexit</a>
+                                <a href="#item3">Lorem ipsum</a>
                             </li> 
                             
                             <li> 
-                                <a href="#item3-1">domet ipsum</a>
+                                <a href="#item3-1">Phasellus rhoncus</a>
                             </li> 
                             
                             <li> 
-                                <a href="#item3-2">las domet lexit </a>
+                                <a href="#item3-2">Phasellus rhoncus</a>
                             </li> 
                         
                         </ul>
@@ -50,7 +50,7 @@
             
             </div>
 
-            <div class="column scrollspySite">
+            <div class="column scrollspySite is-small">
 
                 <p class="title is-4" id="item1">Lorem ipsum</p>
                 
@@ -70,7 +70,7 @@
                     et, viverra eu ipsum. Maecenas dignissim est augue, in mollis risus congue non. Ut at tellus augue. Etiam eget orci ut nibh hendrerit commodo.
                 </p>
 
-                <p class="title is-4" id="item1-2">Phasellus rhoncus</p>
+                <p class="title is-4" id="item1-2">Las lexit domet</p>
                 
                 <p>
                     dolor sit amet, consectetur adipiscing elit. Morbi sit amet nisi dui. Praesent varius commodo purus ac pretium. Nullam aliquam elit ac mi feugiat molestie. Ut luctus mollis volutpat. Etiam commodo placerat erat quis molestie. Nunc tincidunt placerat ligula,

@@ -8,13 +8,16 @@ require('@/assets/main.scss')
 require('@/assets/style.css')
 require('@/assets/all.js')
 
-const store = Vuex.Store({
-  
+Vue.use(Vuex)
+const store = new Vuex.Store({
+
 });
+
 
 import '@/components/index'
 
 new Vue({
   router,
+  store,
   render(h) { return h(App); },
 }).$mount('#app');

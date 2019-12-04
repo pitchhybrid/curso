@@ -8,6 +8,7 @@ import modal from "./components/modal.vue"
 import tabs from "./components/tabs.vue"
 import conteudo from "./components/conteudo.vue"
 import contato from "./components/contato.vue"
+import foot from './components/foot.vue'
 
 Vue.component("card",card)
 Vue.component("carousel",carousel)
@@ -18,3 +19,4 @@ Vue.component("modal",modal)
 Vue.component("tabs",tabs)
 Vue.component("conteudo",conteudo)
 Vue.component("contato",contato)
+Vue.component("foot",foot)
